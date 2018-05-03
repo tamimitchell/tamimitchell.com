@@ -25,16 +25,16 @@ export class Header extends React.Component{
         </div>
         <div className="content">
           <div className="inner">
-            <h1>Dimension</h1>
-            <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-            for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+            <h1>Tami Mitchell</h1>
+            <h3>Full Stack Web Developer</h3>
+            <p>I specialize in writing high quality web applications using Ruby on Rails, JavaScript, and responsive web development.</p>
           </div>
         </div>
         <nav>
           <ul>
-            <li><a href="#intro" onClick={() => this.props.transitionHandler('intro')}>Intro</a></li>
-            <li><a href="#work" onClick={() => this.props.transitionHandler('work')}>Work</a></li>
             <li><a href="#about" onClick={() => this.props.transitionHandler('about')}>About</a></li>
+            <li><a href="https://github.com/tamimitchell"><span class="label">GitHub</span></a></li>
+            <li><a href="https://www.linkedin.com/in/tameramitchell/"><span className="label">LinkedIn</span></a></li>
             <li><a href="#contact" onClick={() => this.props.transitionHandler('contact')}>Contact</a></li>
           </ul>
         </nav>
