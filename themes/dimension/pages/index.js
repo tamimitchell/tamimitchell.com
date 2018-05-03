@@ -2,8 +2,6 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import { Header } from '../components/Header';
-import { Intro } from '../components/Intro';
-import { Work } from '../components/Work';
 import { Contact } from '../components/Contact';
 import { About } from '../components/About';
 import classNames from 'classnames';
