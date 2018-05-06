@@ -32,7 +32,7 @@ export class About extends React.Component{
 
         <p>
           I believe being a good programmer also depends on having a healthy work-life balance. When I’m not coding I travel, hike, read, do yoga, go off-roading, spend quality time with friends and family, and practice my pizza-making-and-eating skills. I write about my &nbsp;
-          <a href="https://blog.tamimitchell.com">travels and personal life here.</a>
+          <a href="https://tamievergreen.com">travels and personal life here.</a>
         </p>
         <div onClick={() => this.props.endTransitionHandler('about')} className="close">Close</div>
       </article>
