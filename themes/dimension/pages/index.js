@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import { Header } from '../components/Header';
-import { Contact } from '../components/Contact';
 import { About } from '../components/About';
 import classNames from 'classnames';
 
@@ -19,10 +18,7 @@ export default class Index extends React.Component {
       main: true,
       footer: true,
       modal: {
-        intro: false,
-        work: false,
         about: false,
-        contact: false,
       }
     }
   }
@@ -78,7 +74,6 @@ export default class Index extends React.Component {
           <Header class={this.state.header} transitionHandler={(name) => this.startArticleTransition(name)}/>
             <div id={mainId} className={mainClass}>
               <About class={this.state.modal.about} endTransitionHandler={(name) => this.endArticleTransition(name)} />
-              <Contact class={this.state.modal.contact} endTransitionHandler={(name) => this.endArticleTransition(name)} />
             </div>
             <div id={footerId} className={footerClass}>
               <p className="copyright">&copy; {currentYear} - Tami Mitchell.</p>

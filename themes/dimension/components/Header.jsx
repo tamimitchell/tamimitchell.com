@@ -33,9 +33,9 @@ export class Header extends React.Component{
         <nav>
           <ul>
             <li><a href="#about" onClick={() => this.props.transitionHandler('about')}>About</a></li>
-            <li><a href="https://github.com/tamimitchell"><span class="label">GitHub</span></a></li>
+            <li><a href="https://github.com/tamimitchell"><span className="label">GitHub</span></a></li>
             <li><a href="https://www.linkedin.com/in/tameramitchell/"><span className="label">LinkedIn</span></a></li>
-            <li><a href="#contact" onClick={() => this.props.transitionHandler('contact')}>Contact</a></li>
+            <li><a href="mailto:mail@tamimitchell.com">Contact</a></li>
           </ul>
         </nav>
       </header>
